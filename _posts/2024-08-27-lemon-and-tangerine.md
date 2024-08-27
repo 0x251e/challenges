@@ -12,5 +12,7 @@ Description: My mom told me to buy lemons and tangerines but she only speaks bin
 Category: Cryptography
 **Flag format:** CTF{flag}
 
-<button onclick="window.location.href='';">Download</button>
+<a href="https://raw.githubusercontent.com/0x251e/challenges/main/union-depository/crypto/lemon_and_tangerine.txt" download="lemon_and_tangerine.txt">
+    <button>Download File</button>
+</a>
 
