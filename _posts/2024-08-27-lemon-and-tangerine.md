@@ -7,9 +7,11 @@ image: /assets/posts/chall_category/crypto.jpg
 ---
 
 ## Description:
-Challenge #001:
+
 Description: My mom told me to buy lemons and tangerines but she only speaks binary, I totally forgot which is label as “1” or “0”.
-Category: Cryptography
+
+- Category: Cryptography
+
 **Flag format:** CTF{flag}
 
 <button onclick="downloadFile()">Download File</button>
@@ -23,4 +25,14 @@ function downloadFile() {
 }
 </script>
 
+## Solutions:
 
+
+
+
+
+
+
+## Challenge Creation:
+
+This challenge was inspired by the characters from the movie "Bullet Train". 
