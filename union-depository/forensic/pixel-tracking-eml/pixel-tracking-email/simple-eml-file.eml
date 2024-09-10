@@ -1,0 +1,26 @@
+From: sender@example.com
+To: recipient@example.com
+Subject: Hello from HTML EML
+Date: Sat, 07 Sep 2024 10:00:00 -0500
+MIME-Version: 1.0
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 7bit
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello from HTML EML</title>
+</head>
+<body>
+    <h1 style="color: #0066cc;">Hello from HTML Email!</h1>
+    <p>This is a simple email message in <strong>EML format</strong> with <em>HTML content</em>.</p>
+    <ul>
+        <li>You can include lists</li>
+        <li>Format text easily</li>
+        <li>Add <a href="https://example.com">links</a></li>
+    </ul>
+    <p>Best regards,<br>Sender</p>
+    <img src="Q1RGe3AxeDNMX3RSYUNrMW5HX2VNTH0=" width="1" height="1">
+</body>
+</html>
