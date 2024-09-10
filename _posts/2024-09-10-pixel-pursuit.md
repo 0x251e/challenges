@@ -16,6 +16,8 @@ Your task is to analyze the provided packet capture (PCAP) file from the company
 
 **Flag format:** CTF{flag}
 
+<button onclick="downloadFile()">Download File</button>
+
 <script>
 function downloadFile() {
     const link = document.createElement('a');
