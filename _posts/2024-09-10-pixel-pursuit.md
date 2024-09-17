@@ -46,3 +46,25 @@ With that, we could include attachments, applications and HTML encoded text. Typ
 ![Tracking Pixel Image](https://en.wikipedia.org/wiki/File:Tracking_pixel.svg)
 
 
+#### 3. Extract the message text contain from IMF packets with tshark 
+
+```
+tshark -Y "imf" -T fields -e text -r pixel-pursuit.pcapng
+```
+
+This will output all the email message body from the packets, we could be more specific as we knew pixel tracking contain image source HTML element in the message. 
+
+```
+tshark -Y "imf" -T fields -e text -r pixel-pursuit.pcapng | grep "<img"
+```
+
+Output:
+```
+Timestamps,<!DOCTYPE html>\\r\\n,<html lang="en">\\r\\n,<head>\\r\\n,    <meta charset="UTF-8">\\r\\n,    <title>Hello from HTML EML</title>\\r\\n,</head>\\r\\n,<body>\\r\\n,    <h1 style="color: #0066cc;">Hello from HTML Email!</h1>\\r\\n,    <p>This is a simple email message in <strong>EML format</strong> with <em>HTML content</em>.</p>\\r\\n,    <ul>\\r\\n,        <li>You can include lists</li>\\r\\n,        <li>Format text easily</li>\\r\\n,        <li>Add <a href="https://example.com">links</a></li>\\r\\n,    </ul>\\r\\n,    <p>Best regards,<br>Sender</p>\\r\\n,    <img src="CTF{p1x3L_tRaCk1nG_eML}" width="1" height="1">\\r\\n,</body>\\r\\n,</html>\\r\\n
+```
+
+We have successfully found the flag.
+
+- **Flag:** `CTF{p1x3L_tRaCk1nG_eML}`
+
+
