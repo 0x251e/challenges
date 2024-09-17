@@ -65,6 +65,10 @@ Timestamps,<!DOCTYPE html>\\r\\n,<html lang="en">\\r\\n,<head>\\r\\n,    <meta c
 
 We have successfully found the flag.
 
+The flag also can be viewed in packet stream by reassembled bytes
+
+![reassemble bytes](/assets/img/reassemblebytes.png)
+
 - **Flag:** `CTF{p1x3L_tRaCk1nG_eML}`
 
 
