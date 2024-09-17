@@ -18,12 +18,14 @@ This challenge demonstrates the vulnerability of CSV injection with DDE payloads
 - **Flag format:** CTF{flag} (There are two parts of the flag)
 
 <script>
-function downloadFile() {
-    const link = document.createElement('a');
-    link.href = 'https://drive.google.com/file/d/1M7Pn7_5X_OI9SB6DQFLAYUTvoLN2A_a_/view?usp=sharing';
-    link.click();
+function redirectToFile() {
+    window.location.href = 'https://drive.google.com/file/d/1M7Pn7_5X_OI9SB6DQFLAYUTvoLN2A_a_/view?usp=sharing';
 }
 </script>
+
+<!-- Button to trigger the redirect -->
+<button onclick="redirectToFile()">Download File</button>
+
 
 
 
