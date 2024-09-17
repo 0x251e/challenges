@@ -31,7 +31,7 @@ function downloadFile() {
 
 #### 1. From the analytics tab, view the protocol hierarchy of the PCAP
 
-![step1](assets/posts/chall-writeup-img/pixel-pursuit/step1.png)
+![step1](/assets/posts/chall-writeup-img/pixel-pursuit/step1.png)
 
 Based from the question, it require us to analyze the network traffic which contain data of email transfer. With this information, we could dig deeper on SMTP and more importantly crave out packets containing Internet Message Format (IMF) data. 
 
