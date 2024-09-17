@@ -14,7 +14,7 @@ Your task is to analyze the provided packet capture (PCAP) file from the company
 
 - Category: Forensic
 
-**Flag format:** CTF{flag}
+- **Flag format:** CTF{flag}
 
 <button onclick="downloadFile()">Download File</button>
 
