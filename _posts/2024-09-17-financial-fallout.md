@@ -21,7 +21,6 @@ This challenge demonstrates the vulnerability of CSV injection with DDE payloads
 function downloadFile() {
     const link = document.createElement('a');
     link.href = 'https://drive.google.com/file/d/1M7Pn7_5X_OI9SB6DQFLAYUTvoLN2A_a_/view?usp=sharing';
-    link.download = 'memdump-zip';
     link.click();
 }
 </script>
