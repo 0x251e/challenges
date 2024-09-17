@@ -32,14 +32,14 @@ function downloadFile() {
 1. From the analytics tab, view the protocol hierarchy of the PCAP
 
 
-Based from the question, it require us to analyze the network traffic which contain data of email transfer. With this information, we could dig deeper on SMTP and more importantly crave out packets containing Internet Message Format (IMF) data. 
+- Based from the question, it require us to analyze the network traffic which contain data of email transfer. With this information, we could dig deeper on SMTP and more importantly crave out packets containing Internet Message Format (IMF) data. 
 
 
 2. Understand how IMF data and pixel tracking in emails 
 
-Based on Wireshark's Wiki, IMF is the format in which text messages are sent across the Internet. SMTP represents the message envelope, whereas IMF represents the letter within the envelope. It includes the sender, recipients, subject, and dates. While IMF only supports text messages, it may be extended with MIME\_multipart to accommodate multi-media communications. 
+- Based on Wireshark's Wiki, IMF is the format in which text messages are sent across the Internet. SMTP represents the message envelope, whereas IMF represents the letter within the envelope. It includes the sender, recipients, subject, and dates. While IMF only supports text messages, it may be extended with MIME\_multipart to accommodate multi-media communications. 
 
-With that, we could include attachments, applications and HTML encoded text. Typically, email tracking pixel is encoded within the HTML which acts like a beacon. This tracking image is  1×1-pixel image, nearly invisible to the naked eye.  The purpose of this email tracking pixel can be both useful and malicious as it able to collect data from the receipent's endpoint. 
+- With that, we could include attachments, applications and HTML encoded text. Typically, email tracking pixel is encoded within the HTML which acts like a beacon. This tracking image is  1×1-pixel image, nearly invisible to the naked eye.  The purpose of this email tracking pixel can be both useful and malicious as it able to collect data from the receipent's endpoint. 
 
 
 ![Tracking Pixel Image](https://en.wikipedia.org/wiki/File:Tracking_pixel.svg)
