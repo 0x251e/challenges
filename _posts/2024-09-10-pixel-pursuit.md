@@ -43,7 +43,7 @@ Based on Wireshark's Wiki, IMF is the format in which text messages are sent acr
 With that, we could include attachments, applications and HTML encoded text. Typically, email tracking pixel is encoded within the HTML which acts like a beacon. This tracking image is  1×1-pixel image, nearly invisible to the naked eye.  The purpose of this email tracking pixel can be both useful and malicious as it able to collect data from the receipent's endpoint. 
 
 
-![Tracking Pixel Image](https://en.wikipedia.org/wiki/Tracking_pixel.svg)
+![Tracking Pixel Image](/assets/img/pixeltracking.png)
 
 
 #### 3. Extract the message text contain from IMF packets with tshark 
