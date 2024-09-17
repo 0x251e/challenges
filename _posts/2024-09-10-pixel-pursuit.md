@@ -35,6 +35,8 @@ function downloadFile() {
 
 <img src="./img/step1.png" alt="alt text">
 
+<img src="/assets/img/step1.png">
+
 Based from the question, it require us to analyze the network traffic which contain data of email transfer. With this information, we could dig deeper on SMTP and more importantly crave out packets containing Internet Message Format (IMF) data. 
 
 
