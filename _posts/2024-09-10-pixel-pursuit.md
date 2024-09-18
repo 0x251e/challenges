@@ -71,4 +71,14 @@ The flag also can be viewed in packet stream by reassembled bytes
 
 - **Flag:** `CTF{p1x3L_tRaCk1nG_eML}`
 
+## Challenge Creation:
+
+#### 1. Setup the environment
+
+For this challenge, I used telnet to send the smtp packets to the receiver but eveything is done in localhost. For this challenge, I have generated 101 emails and 100 are dummy emails, so this [tool](https://github.com/MarcVillain/EmailGenerator) is very helpful to generate random emails. Next up, is sending all those emails to IMAP server also and the end with ThunderBird to view the email messages. With that, this [python script](https://github.com/0x251e/challenges/blob/main/union-depository/forensic/pixel-tracking-eml/pixel-tracking-email/script.py) is used to send all the generated messages with the interval of 2 seconds. Well, why the interval of 2 seconds you may ask, is to manually send the flagged pixel tracking email to the receipient. 
+
+#### 2. Turn on wireshark before initiate the sender script
+
+This process roughly takes about 3-4 minutes, but within the first half, I have sent the flagged email. After the email transmission process has completed, just as a troll, ping localhost with a string of fake flag.
+
 

