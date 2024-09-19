@@ -2,7 +2,7 @@
 title: Financial Fallout
 time: 2024-09-17
 categories: [forensic]
-tags: [memory forensic, medium]
+tags: [memory forensic, medium, malware, CVE-2014-3524]
 image: /assets/posts/chall_category/forensic.jpg
 ---
 
