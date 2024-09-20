@@ -28,5 +28,10 @@ function downloadFile() {
 
 ## Questions:
 
-> 1.
-> 2.
+> 1. What is the main purpose of this script?
+> 2. What command is used to execute the final payload?
+> 3. What is the URL from which additional code is downloaded?
+> 4. How does the script attempt to evade detection? List at least two methods.
+> 5. What PowerShell flags are used when executing the encoded command, and what do they do?
+> 6. Decode the Base64 string in the script. What does it reveal?
+> 7. Rewrite the script in a de-obfuscated form.
