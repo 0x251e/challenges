@@ -88,4 +88,21 @@ Output:
 CTF{CSV_1nj3t10n_2
 ```
 
+#### Step 5: Find out the location of the modified file by the malware
 
+This part of the challenge is messed up because my intention is to have evtx recorded file modication changes but I forget to setup the audit policy in secpol.msc. Anyhow, the file is located at Desktop with the name of `important text.txt`. Dump the files would get the flag and it encoded in base64.
+
+```
+$ echo "X1IzdjNyc2VfU2gzbGx9" | base64 -d
+```
+
+Output:
+```
+_R3v3rse_Sh3ll}
+```
+
+**Flag:** `CTF{CSV_1nj3t10n_2_R3v3rse_Sh3ll}`
+
+## Challenge Creation: 
+
+I have planned out in detail, will attach an md file for it 
