@@ -1,5 +1,5 @@
 ---
-title: Financial Fallout
+title: Powershell Enigma
 time: 2024-09-17a
 categories: [malware analysis]
 tags: [easy, malware, ps1]
