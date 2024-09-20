@@ -105,4 +105,14 @@ _R3v3rse_Sh3ll}
 
 ## Challenge Creation: 
 
-I have planned out in detail, will attach an md file for it 
+I have planned out in detail, will attach an md file for it. (Attachments: [READMe.md](https://github.com/0x251e/challenges/blob/main/union-depository/forensic/financial-fallout-artifacts/READMe.md))
+
+#### TL;DR:
+- Windows 8.1 as victim machine
+- OpenOffice 4.0.1 as vulnerable software
+- Kali Linux as attacker with listener to reverse shell 
+- Use revshells.com as the payload on port 4444
+- Use Install-Module ps2exe to trojanized script
+- Use DDE to invoke powershell to download dropper and execute
+
+
