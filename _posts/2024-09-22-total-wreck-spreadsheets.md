@@ -33,4 +33,20 @@ function downloadFile() {
 
 In REMnux, move the `a_total_wreck_challenge.zip` to your working directory and unzip it with the password `infected`.
 
+As we noticed the extension of xlsm of the file, it indicates the file contains macros. Macros is a recorded sequences of actions or commands that is used to automated repetitive tasks. It is a common feature in Microsoft Office tools. Mostly, it is used for formatting text, applying styles and inserting content. For excel wise, it can be perform complex or repetitive calculations in order to generate report in a swift time. 
+
+In addition to macros, Microsoft Office also supports scripting through Visual Basic for Applications (VBA), which allows users to create more advanced and customized macros. VBA is a programming language integrated into Office applications such as Excel, Word, and PowerPoint, enabling automation beyond simple tasks. 
+
+#### 2. Determine any malicious VBA macros with oletimes
+
+`oleid Employee_Salaries_2024.xlsm`
+
+Output:
+
+![solve2](/assets/posts/chall-writeup-img/total-wreck-spreadsheets/solve2.png)
+
+Here we can noticed that this spreasheet documents contain VBA macros that are highly suspicious due to certain keywords used. Lets analyze on the keywords that is used. The next process will be extracting the embedded macros. 
+
+
+
 
