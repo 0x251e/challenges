@@ -1,6 +1,6 @@
 ---
 title: Powershell Enigma
-time: 2024-09-17a
+time: 2024-09-17
 categories: [malware analysis]
 tags: [easy, malware, ps1]
 image: /assets/posts/chall_category/malware-analysis.png
