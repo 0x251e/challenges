@@ -14,3 +14,15 @@ The cybersecurity team has been notified of unusual network activity originating
 - **Flag:** CTF{flag}
 - Password for challenge file: `infected`
 
+<button onclick="downloadFile()">Download File</button>
+
+<script>
+function downloadFile() {
+    const link = document.createElement('a');
+    link.href = 'https://github.com/0x251e/challenges/raw/main/union-depository/malware-analysis/total-wreck-spreadsheets/a_total_wreck_challenge.zip';
+    link.download = 'a_total_wreck_challenge.zip';
+    link.click();
+}
+</script>
+
+
