@@ -85,7 +85,7 @@ We can easily view the VBA script easily, now piped it to text file to analyze f
 
 #### 5. Analyzing malicious VBA scipt
 
-```vbnet
+```
 Attribute VB_Name = "Module1"
 Sub Document_Open()
     OldStartup = CreateObject("WScript.Shell").SpecialFolders("Startup")
