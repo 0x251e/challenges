@@ -25,4 +25,12 @@ function downloadFile() {
 }
 </script>
 
+## Solutions:
+
+#### 1. Use REMnux as your trusty malware analysis tool
+
+![solve1](/assets/posts/chall-writeup-img/total-wreck-spreadsheets/solve1.png)
+
+In REMnux, move the `a_total_wreck_challenge.zip` to your working directory and unzip it with the password `infected`.
+
 
