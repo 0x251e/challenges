@@ -51,6 +51,16 @@ Output:
 
 Here we can noticed that this spreasheet documents contain VBA macros that are highly suspicious due to certain keywords used. Lets analyze on the keywords that is used. The next process will be extracting the embedded macros. 
 
+#### 3. Extracting VBA macros from the spreadsheets
+
+```
+oledump Employee_Salaries_2024.xlsm
+```
+
+Output:
+![solve3](/assets/posts/chall-writeup-img/total-wreck-spreadsheets/solve3.png)
+
+Here we can noticed a capital **M** on `A3: M 7064 'VBA/Module1` which is a stream. Always take note on the **M** and **m** where **M** means that the macro is compressed where else **m** means is uncompressed, it could be metadata which is easier to analyze
 
 
 
