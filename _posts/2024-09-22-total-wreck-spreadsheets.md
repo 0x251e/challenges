@@ -137,3 +137,10 @@ Function SearchProcesses()
 End Function
 ```
 
+In the VBA script, it contain code that creates a registry under `HKCU\Software\Microsoft\Windows\CurrentVersion\Run` and it execute command to ping to `183.81.169.238`. We could check the activity of the IP address.
+
+![solve6](/assets/posts/chall-writeup-img/total-wreck-spreadsheets/solve6.png)
+
+With `AutOpen`, the script will runs automatically when the document is opened. Moreover, it contains a list of exe in an array which has the name of `Function SearchProcess()` which checks for common security tools. This means the malware is checking on whether it is in a monitoring enviroment. If it detects from WMI, it echoes a string `"Q1RGe0hSX2cwdF93UjNrZH0"`, lets take note on that. Finally, there is a code where is rename existing Startup folder to `test` and creates a batch file of `dHJ5cGVyaGFwcw.bat` and having the `cmd.exe` to execute it. Now we have two possible string contain flag-lookalike text, base64 indeed.
+
+
