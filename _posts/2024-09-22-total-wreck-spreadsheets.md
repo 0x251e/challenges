@@ -39,7 +39,11 @@ In addition to macros, Microsoft Office also supports scripting through Visual B
 
 #### 2. Determine any malicious VBA macros with oletimes
 
-`oleid Employee_Salaries_2024.xlsm`
+Analyze the embedded contents of the spreadsheets with OLE tools.
+
+```
+oleid Employee_Salaries_2024.xlsm
+```
 
 Output:
 
