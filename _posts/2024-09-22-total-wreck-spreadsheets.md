@@ -143,4 +143,29 @@ In the VBA script, it contain code that creates a registry under `HKCU\Software\
 
 With `AutOpen`, the script will runs automatically when the document is opened. Moreover, it contains a list of exe in an array which has the name of `Function SearchProcess()` which checks for common security tools. This means the malware is checking on whether it is in a monitoring enviroment. If it detects from WMI, it echoes a string `"Q1RGe0hSX2cwdF93UjNrZH0"`, lets take note on that. Finally, there is a code where is rename existing Startup folder to `test` and creates a batch file of `dHJ5cGVyaGFwcw.bat` and having the `cmd.exe` to execute it. Now we have two possible string contain flag-lookalike text, base64 indeed.
 
+#### 6. Decode base64 string
+
+```
+echo "Q1RGe0hSX2cwdF93UjNrZH0" | base64 -d 
+```
+
+Output: CTF{HR\_g0t\_wR3kd}
+
+**Flag:** `CTF{HR_g0t_wR3kd}`
+
+## Challenge Creation: 
+
+I have planned out in detail, will attach an md file for it. (Attachments: [READMe.md](https://github.com/0x251e/challenges/blob/main/union-depository/malware-analysis/total-wreck-spreadsheets/READMe.md)
+
+TL;DR:
+- Windows 10
+- Excel spreadsheet (enable macros)
+- Use [payloads](https://github.com/S3cur3Th1sSh1t/OffensiveVBA/)
+- Use remnux test challenge file
+
+References:
+- [https://fareedfauzi.github.io/2024/04/20/Maldoc-Cheatsheet.html](https://fareedfauzi.github.io/2024/04/20/Maldoc-Cheatsheet.html)
+- [medium post](https://socfortress.medium.com/malicious-macros-detection-in-ms-office-files-using-olevba-752ed6b48c04)
+- [medium post](https://medium.com/@malwaredev/macros-in-malware-development-db426dc0f065)
+
 
