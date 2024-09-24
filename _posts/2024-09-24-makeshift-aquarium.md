@@ -1,5 +1,5 @@
 ---
-title: "Makeshift Aquarium"
+title: Makeshift Aquarium
 time: 2024-09-24
 categories: [osint]
 tags: [reverse image search, easy]
