@@ -13,6 +13,7 @@ The message is very clear. Find the location of the image.
 ![chall](/assets/posts/chall-writeup-img/nous-ne-pouvons-rien-faire-v2/chall.png)
 
 - Category: OSINT
-- Flag: CTF{coordinates-two-place-decimals-like-5.23}
+- Flag: CTF{coordinates-three-place-decimals-like-5.239} 
 - Hint: Try Shazam (It works, indirectly)
+
 
