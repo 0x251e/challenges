@@ -2,7 +2,7 @@
 title: Makeshift Aquarium
 time: 2024-09-24
 categories: [osint]
-tags: [google dorking, GPS location, hard]
+tags: [google dorking, GPS location, medium]
 image: /assets/posts/chall_category/osint.jpg
 ---
 
@@ -14,7 +14,6 @@ I love fish, and my place is full of them. One day, my neighbor knocked and said
 
 - Category: OSINT
 - Flag: CTF{coordinates-three-place-decimals-like-4.003} 
-- Clue:
 
 <button onclick="downloadFile()">Download Clue Image</button>
 
