@@ -10,6 +10,8 @@ image: /assets/posts/chall_category/osint.jpg
 
 I love fish, and my place is full of them. One day, my neighbor knocked and said, "There's an aquarium with 100 goldfishes in it and is has a name of a movie character." She gave me a movie poster of that character and left. That's all she knew and now I am stuck figure it out. Can you help to find out where exactly this aquarium locates ?
 
+![poster](/assets/posts/chall-writeup-img/makeshift-aquarium/poster.jpg)
+
 - Category: OSINT
 - Flag: CTF{coordinates-three-place-decimals-like-4.003} 
 - Clue:
@@ -19,8 +21,10 @@ I love fish, and my place is full of them. One day, my neighbor knocked and said
 <script>
 function downloadFile() {
     const link = document.createElement('a');
-    link.href = 'https://github.com/0x251e/challenges/raw/main/union-depository/malware-analysis/powershell-enigma/sus.zip';
+    link.href = 'https://github.com/0x251e/challenges/raw/main/assets/posts/chall-writeup-img/makeshift-aquarium/kindatrollingbutstillaclue.jpeg';
     link.download = 'clue';
     link.click();
 }
 </script>
+
+
