@@ -8,7 +8,7 @@ image: /assets/posts/chall_category/osint.jpg
 
 ## Description: 
 
-I love fish, and my place is full of them. One day, my neighbor knocked and said, "There's an aquarium with 100 goldfishes in it and is has a name of a movie character." She gave me a movie poster of that character and left. That's all she knew and now I am stuck figure it out. Can you help to find out where exactly this aquarium locates ?
+I love fish, and my place is full of them. One day, my neighbor knocked and said, "There's an aquarium with 100 goldfishes in it and it has a nick-name of a movie character." She gave me a movie poster of that character and left. That's all she knew and now I am stuck figure it out. Can you help to find out where exactly this aquarium locates ?
 
 ![poster](/assets/posts/chall-writeup-img/makeshift-aquarium/poster.jpg)
 
