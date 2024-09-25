@@ -15,7 +15,7 @@ I love fish, and my place is full of them. One day, my neighbor knocked and said
 - Category: OSINT
 - Flag: CTF{coordinates-three-place-decimals-like-4.003} 
 
-<button onclick="downloadFile()">Download Clue Image</button>
+<button onclick="downloadFile()">Download Hint Image</button>
 
 <script>
 function downloadFile() {
