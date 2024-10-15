@@ -1,0 +1,5 @@
+Full Flag: CTF{CSV_1nj3t10n_2_R3v3rse_Sh3ll}
+
+Base64 Part 1: Q1RGe0NTVl8xbmozdDEwbl8y
+
+Base64 Part 2: X1IzdjNyc2VfU2gzbGx9
